@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"WeatherCloudRun/internal/infra/web/handlers"
+	"github.com/angrodrigo10/WeatherCloudRun/internal/infra/web/handlers"
 )
 
 func main() {
