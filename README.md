@@ -36,6 +36,7 @@ Objetivo: Desenvolver um sistema em Go que receba um CEP, identifica a cidade e 
 ## Testes automatizados:
 
 ## Google Cloud Run:
-[status 200](https://weathercloudrun-359373025422.us-central1.run.app/34012690)
-[status 422](https://weathercloudrun-359373025422.us-central1.run.app/340000001)
-[status 404](https://weathercloudrun-359373025422.us-central1.run.app/34000000)
+
+[status 200](https://weathercloudrun-359373025422.us-central1.run.app/34012690)  
+[status 422](https://weathercloudrun-359373025422.us-central1.run.app/340000001)  
+[status 404](https://weathercloudrun-359373025422.us-central1.run.app/34000000)  
