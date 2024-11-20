@@ -34,6 +34,28 @@ Objetivo: Desenvolver um sistema em Go que receba um CEP, identifica a cidade e 
 - Deploy realizado no Google Cloud Run (free tier) e endereço ativo para ser acessado.
 
 ## Testes automatizados:
+```bash
+
+go test ./internal/infra/web/handlers/ -v
+=== RUN   TestHandlerClimaCode200
+CEP: 34012690
+localidade: Nova Lima
+err: <nil>
+Localidade: Nova+Lima
+Temperatura em 19.8
+--- PASS: TestHandlerClimaCode200 (0.64s)
+=== RUN   TestHandlerClimaCode422
+CEP: 340000001
+--- PASS: TestHandlerClimaCode422 (0.00s)
+=== RUN   TestHandlerClimaCode404
+CEP: 34000000
+localidade: 
+err: <nil>
+--- PASS: TestHandlerClimaCode404 (0.39s)
+PASS
+ok      github.com/angrodrigo10/WeatherCloudRun/internal/infra/web/handlers     1.045s
+
+```
 
 ## Google Cloud Run:
 
